@@ -5,7 +5,6 @@ public class communicationFactory {
     //On va utiliser getComm() pour avoir l'objet de type Media
 
     public static Media getComm(String commType){
-
         if(commType == null){
             return null;
         }
